@@ -47,7 +47,7 @@ Sketchpad is a high-performance visual interface designed to eliminate the frict
 git clone [https://github.com/ez0000001000000/sketchpad.git](https://github.com/ez0000001000000/sketchpad.git)
 
 # Install dependencies
-npm install
+pnpm i
 
 # Run the editor
-npm run dev
+pnpm dev
