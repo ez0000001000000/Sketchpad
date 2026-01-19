@@ -1,30 +1,53 @@
-# Sketchpad - shadcn/ui theme
+# Sketchpad
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+### **The modern theme editor for developers and designers.**
+Sketchpad is a high-performance visual interface designed to eliminate the friction of styling web applications. Stop manual-coding hex values and spacing scales—design visually and export production-ready code in seconds.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ice089manez-gmailcoms-projects/v0-sketchpad-shadcn-ui-theme)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/VcXJXLlww7o)
+---
 
-## Overview
+## 🖥️ Preview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+![Sketchpad Interface](https://cdn.gamma.app/0q3kwkx42ofh0ga/f964094db3c4413ca5d1b1e24eaa42b9/original/image.png)
 
-## Deployment
+---
 
-Your project is live at:
+## 🔥 Features
 
-**[https://vercel.com/ice089manez-gmailcoms-projects/v0-sketchpad-shadcn-ui-theme](https://vercel.com/ice089manez-gmailcoms-projects/v0-sketchpad-shadcn-ui-theme)**
+* **Massive Library:** Choose from dozens of professional pre-built themes to jumpstart your project.
+* **Visual Precision:** Fine-tune colors, typography, and layout constraints with real-time feedback.
+* **Universal Export:** One-click code generation for:
+    * **Tailwind CSS** (Full config objects)
+    * **CSS Variables** (Native `:root` variables)
+    * **React/MUI** (Theme providers)
+    * **Sass/SCSS**
+* **Smart Tokens:** Automatically generates accessible color palettes and dark mode variants.
+* **Developer-First:** Clean, minified, or expanded code output that fits right into your workflow.
 
-## Build your app
+## 🚀 Quick Start
 
-Continue building your app on:
+1. **Browse:** Open the library and pick a base aesthetic.
+2. **Edit:** Use the sidebar controls to customize your brand identity.
+3. **Export:** Copy the generated code directly into your project files.
 
-**[https://v0.app/chat/VcXJXLlww7o](https://v0.app/chat/VcXJXLlww7o)**
+## 📦 Supported Environments
 
-## How It Works
+| Export Target | Format | Integration |
+| :--- | :--- | :--- |
+| **Tailwind** | `tailwind.config.js` | Full theme extension |
+| **Web** | `variables.css` | Native CSS custom properties |
+| **Material UI** | `createTheme.ts` | TypeScript-ready theme objects |
+| **Design** | `tokens.json` | W3C standard design tokens |
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone [https://github.com/ez0000001000000/sketchpad.git](https://github.com/ez0000001000000/sketchpad.git)
+
+# Install dependencies
+npm install
+
+# Run the editor
+npm run dev
